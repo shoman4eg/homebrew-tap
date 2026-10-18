@@ -1,9 +1,9 @@
 cask "dowel-craft-app" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.2.0"
-  sha256 arm:   "2f9ff9a6f6cd60254be3ed8990a0d1ebb553729a986e28769f6e038adb589d36",
-         intel: "757c81224dac3b905124e39d9c0357e541b156ce246b0fdade63d3c42d359d03"
+  version "0.3.0"
+  sha256 arm:   "18c2d40f44673895ea6587911742f058430da5f11ec426c675f4d8c90b0e660a",
+         intel: "1a0055a56246b72ee819f072488580d1364fb9ebe6ad9b0b6121744a3ea82e27"
 
   url "https://github.com/shoman4eg/dowelcraft/releases/download/v#{version}/dowel-craft-macos-#{arch}.tar.gz"
   name "Dowel Craft"
