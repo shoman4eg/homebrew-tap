@@ -1,24 +1,24 @@
 class DowelCraft < Formula
   desc "Cabinet furniture design: parts, sheet cutting, drilling, drawings"
   homepage "https://github.com/shoman4eg/dowelcraft"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/shoman4eg/dowelcraft/releases/download/v0.1.0/dowel-craft-macos-arm64.tar.gz"
-      sha256 "397efeac01cc1e90ebafc1312d0d70e3ddd98b7754208ad1196a3cecee9d98b3"
+      url "https://github.com/shoman4eg/dowelcraft/releases/download/v0.2.0/dowel-craft-macos-arm64.tar.gz"
+      sha256 "2f9ff9a6f6cd60254be3ed8990a0d1ebb553729a986e28769f6e038adb589d36"
     end
     on_intel do
-      url "https://github.com/shoman4eg/dowelcraft/releases/download/v0.1.0/dowel-craft-macos-x86_64.tar.gz"
-      sha256 "120a8b729ff72d55dfff553c6e15e9c7dbe7b97669424ae41cd2e76cfa5ff5b5"
+      url "https://github.com/shoman4eg/dowelcraft/releases/download/v0.2.0/dowel-craft-macos-x86_64.tar.gz"
+      sha256 "757c81224dac3b905124e39d9c0357e541b156ce246b0fdade63d3c42d359d03"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/shoman4eg/dowelcraft/releases/download/v0.1.0/dowel-craft-linux-x86_64.tar.gz"
-      sha256 "fb05ee5e9199bc803cc12349de637626d018820fa12df4620e9928c77ffd401d"
+      url "https://github.com/shoman4eg/dowelcraft/releases/download/v0.2.0/dowel-craft-linux-x86_64.tar.gz"
+      sha256 "35e92fbf378ed625e5322d57affbf27b614399c2d70f9766c36f1eba93702c6f"
     end
   end
 
